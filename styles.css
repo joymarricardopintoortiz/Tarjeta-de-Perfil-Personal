@@ -1,0 +1,179 @@
+body{
+    font-family: Arial;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 80%;
+    margin: 100px auto;
+    background-color: white;
+    padding: 30px;
+}
+
+.tabla-encabezado{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tabla-encabezado-2{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tabla-encabezado td{
+    vertical-align: top;
+    padding: 10px;
+}
+
+.tabla-encabezado-2 td{
+    vertical-align: top;
+    padding: 10px;
+}
+
+.foto{
+    width: 150px;
+    border-radius: 10px;
+}
+
+h1{
+    border-bottom: 2px solid #353a41;
+    padding-bottom: 10px;
+}
+
+.nombre{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    .contenedor {
+        padding: 20px;
+    }
+
+    .foto {
+        width: 130px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .tabla-encabezado td {
+        padding: 8px;
+    }
+
+    .tabla-encabezado td h1 {
+        font-size: 20px;
+    }
+
+    .tabla-encabezado td h3 {
+        font-size: 15px;
+    }
+
+    .tabla-encabezado td p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .contenedor {
+        padding: 15px;
+    }
+
+    .foto {
+        width: 110px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .tabla-encabezado td {
+        padding: 6px;
+    }
+
+    .tabla-encabezado td h1 {
+        font-size: 15px;
+    }
+
+    .tabla-encabezado td h3 {
+        font-size: 13px;
+    }
+
+    .tabla-encabezado td p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .contenedor {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .tabla-encabezado td {
+        padding: 4px;
+    }
+
+    .tabla-encabezado td h1 {
+        font-size: 12px;
+    }
+
+    .tabla-encabezado td h3 {
+        font-size: 11px;
+    }
+
+    .tabla-encabezado td p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .contenedor {
+        padding: 5px;
+    }
+
+    .foto {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 11px;
+    }
+
+    .tabla-encabezado td{
+        padding: 2px;
+    }
+
+    .tabla-encabezado td h1{
+        font-size: 10px;
+    }
+
+    .tabla-encabezado td p{
+        font-size: 9px;
+    }
+}
